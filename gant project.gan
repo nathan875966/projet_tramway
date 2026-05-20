@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2026-04-24" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3316" locale="fr_FR">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="200" order="0"/>
+        <field id="tpd4" name="Date de début" width="75" order="1"/>
+        <field id="tpd5" name="Date de fin" width="75" order="2"/>
+        <field id="tpd15" name="Notes" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#00cccc #ffff33]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="1" uid="fc8c1b03a0a248ecacd0f91e203809d0" name="Shema et croquis" meeting="false" start="2026-03-17" duration="5" complete="100" webLink="https%3A%2F%2Fgithub.com%2Fnathanjammes-lab%2FProjet_Tramway%2Fblob%2Fmain%2FCroquis%2Fimage%2520croquis%2520tramway.png%3Fraw%3Dtrue" expand="true">
+            <notes><![CDATA[debut du croquis et creation de shema]]></notes>
+        </task>
+        <task id="2" uid="8b280a3131664b2e9751756838d20668" name="croquis 3D" meeting="false" start="2026-03-20" duration="9" complete="53" expand="true">
+            <notes><![CDATA[conception croquis 3D sur onshape 
+ debut de la conception 3D sur onshape et solidwork:
+
+-lampadaire 
+
+-panneau
+
+croquis de Nathan.L:
+https://raw.githubusercontent.com/nathan875966/projet_tramway/refs/heads/main/image%203d%20sation%20re.png?token=GHSAT0AAAAAADYKBY5MSUJJGBUCGCN5KH2M2OCXBNA
+
+
+absence Léo]]></notes>
+        </task>
+        <task id="5" uid="126ac49ef7f7497dae0d223f854ee140" name="creation organigrames" meeting="false" start="2026-03-24" duration="1" complete="100" webLink="https%3A%2F%2Fraw.githubusercontent.com%2Fnathanjammes-lab%2FProjet_Tramway%2Frefs%2Fheads%2Fmain%2Ftram%2520organigram.png" expand="true">
+            <notes><![CDATA[cration des organigram sur draw.io 
+
+]]></notes>
+        </task>
+        <task id="3" uid="3befd2989a06455b9827c1070f44049f" name="recherche de l'existant" meeting="false" start="2026-03-13" duration="2" complete="100" webLink="https%3A%2F%2Fraw.githubusercontent.com%2Fnathanjammes-lab%2FProjet_Tramway%2Frefs%2Fheads%2Fmain%2Fimage%2Flumiere.jpg" expand="true">
+            <notes><![CDATA[recherche de l'existant avec notres groupe
+
+debut croquis papier
+
+
+
+
+
+
+
+Absence Léo]]></notes>
+        </task>
+        <task id="6" uid="11a707eb5b764fe5bd2fd2f0f8cbb022" name="Programe" color="#00cccc" meeting="false" start="2026-03-27" duration="4" complete="30" webLink="https%3A%2F%2Fraw.githubusercontent.com%2Fnathanjammes-lab%2FProjet_Tramway%2Frefs%2Fheads%2Fmain%2Fimage%2FCapture%2520d%27%25C3%25A9cran%25202026-03-31%2520105328.png" expand="true">
+            <notes><![CDATA[debut creation programe
+
+
+absence Léo]]></notes>
+        </task>
+        <task id="7" uid="c4b6d3b13f7c4d18958e25d178ef54b0" name="création piece" meeting="false" start="2026-03-31" duration="3" complete="0" expand="true">
+            <notes><![CDATA[envoi piece 3D a imprimer
+
+
+
+
+absence Léo ]]></notes>
+        </task>
+        <task id="8" uid="c85923e48d254305affd3bbf70694555" name="creation piece 2" meeting="false" start="2026-04-03" duration="5" complete="0" expand="true">
+            <notes><![CDATA[Nathan.L: debut programation + conception 3D abri vélo + croquis A2; programage panneau parking
+
+Nathan.J: conception 3D station tram + croquis A2 ; continuation creation station tram 3D onshape
+
+Léo: conception barriere 3D + croquis A2 ; conceptio baarriere
+
+
+Nathan.L: conception nouvelle piece avec afficheur plus grand
+
+Nathan.J: fin conception 3D sur solidworks et envoi a imprimer
+
+
+lien image decoupe laser https://raw.githubusercontent.com/nathanjammes-lab/Projet_Tramway/refs/heads/main/image/Capture%20d'%C3%A9cran%202026-04-10%20124621.png
+https://raw.githubusercontent.com/nathanjammes-lab/Projet_Tramway/refs/heads/main/image/Capture%20d'%C3%A9cran%202026-04-10%20124653.png
+]]></notes>
+        </task>
+        <task id="9" uid="3550d029027d4c37a63006e931b7384d" name="assenblage" meeting="false" start="2026-04-28" duration="1" complete="0" expand="true">
+            <notes><![CDATA[assenblage de la piece en carton + debut création pagge html ]]></notes>
+        </task>
+        <task id="11" uid="fdc8baee81ea4326850a78f9404a0dd6" name="programage" meeting="false" start="2026-05-05" duration="1" complete="0" expand="true">
+            <notes><![CDATA[retour de léo 
+pprogramme de léo avancer
+impression 3D de la barriere
+impression 3D panneau d'affichage
+assenblage et teste de la staton relais]]></notes>
+        </task>
+        <task id="12" uid="5326e96910a54004b11afe408030108a" name="finition" meeting="false" start="2026-05-07" duration="1" complete="0" expand="true">
+            <notes><![CDATA[nouvelle piece 3D
+limage et decoupage et branchage]]></notes>
+        </task>
+        <task id="13" uid="8ace29b9e1b74104b1b7f51a474f950a" name="assemblage maquette" meeting="false" start="2026-05-12" duration="1" complete="0" expand="true">
+            <notes><![CDATA[nous avons assembler la maquette et réglé quelque probleme]]></notes>
+        </task>
+        <task id="14" uid="ff764b561bbe4b8ba6e1afe4bda4a2b5" name="fin du projet" meeting="false" start="2026-05-19" duration="1" complete="0" expand="true">
+            <notes><![CDATA[de nouveau proble on été rencontrés: nous avions seulement 1 carte aruino pour 3, plus de servo moteur, impossible de televerser les programe dans la carte 
+quelque problemes ont été regleer durant la séance comme: ont a trouver un servo moteur, ont a aussi reuisti a televerser un programme dans la carte ]]></notes>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Nathan" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
